@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBoard – Student Progress Dashboard</title>
+    <link rel="stylesheet" href="nxt_project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h2 class="logo">EduBoard</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> Subjects</a></li>
+                <li><a href="#"><i class="fas fa-calendar-check"></i> Attendance</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="header">
+                <div class="student-info">
+                    <img src="https://via.placeholder.com/40" alt="Student Avatar" class="avatar">
+                    <span class="student-name">John Doe</span>
+                </div>
+                <div class="header-icons">
+                    <i class="fas fa-bell"></i>
+                </div>
+            </header>
+
+            <!-- Overview Cards -->
+            <section class="cards">
+                <article class="card">
+                    <h3>GPA</h3>
+                    <p>3.8</p>
+                </article>
+                <article class="card">
+                    <h3>Attendance</h3>
+                    <p>92%</p>
+                </article>
+                <article class="card">
+                    <h3>Assignments Due</h3>
+                    <p>3</p>
+                </article>
+                <article class="card">
+                    <h3>Total Credits</h3>
+                    <p>24</p>
+                </article>
+            </section>
+
+            <!-- Progress Table -->
+            <section class="progress-section">
+                <h2>Subject Progress</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Completion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mathematics</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                </div>
+                                85%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Physics</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 70%;"></div>
+                                </div>
+                                70%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Computer Science</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 95%;"></div>
+                                </div>
+                                95%
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Deadlines -->
+            <section class="deadlines">
+                <h2>Upcoming Deadlines</h2>
+                <ul>
+                    <li>
+                        <span class="date-badge">15 Aug</span>
+                        Physics Lab Report Submission
+                    </li>
+                    <li>
+                        <span class="date-badge">20 Aug</span>
+                        Mathematics Assignment 3
+                    </li>
+                    <li>
+                        <span class="date-badge">25 Aug</span>
+                        Computer Science Project
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Profile Info -->
+            <section class="profile-card">
+                <h2>Student Profile</h2>
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Roll No:</strong> 123456</p>
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <p><strong>College:</strong> ABC College of Engineering</p>
+                <p><strong>Department:</strong> Computer Science</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
