@@ -23,8 +23,6 @@ Design & Accessibility
 Responsive Layout – Adapts seamlessly for desktop, tablet, and mobile using CSS Grid and Flexbox.
 Semantic HTML – Proper use of <nav>, <header>, <section>, <article>, <aside>, <footer>, and <table>.
 
-Accessible – Screen reader-friendly labels, readable font sizes, and strong color contrast.
-
 Use Case
 
 Perfect for front-end practice projects, portfolio showcases, or educational institutions wanting a lightweight student dashboard template without JavaScript dependencies.
