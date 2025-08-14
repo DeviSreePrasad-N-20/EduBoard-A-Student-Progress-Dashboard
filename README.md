@@ -21,9 +21,6 @@ Profile Card – Student details like Name, Roll No, Email, College, and Departm
 Design & Accessibility
 
 Responsive Layout – Adapts seamlessly for desktop, tablet, and mobile using CSS Grid and Flexbox.
-
-Clean UI – Pastel and blue color palette with subtle shadows for a professional look.
-
 Semantic HTML – Proper use of <nav>, <header>, <section>, <article>, <aside>, <footer>, and <table>.
 
 Accessible – Screen reader-friendly labels, readable font sizes, and strong color contrast.
